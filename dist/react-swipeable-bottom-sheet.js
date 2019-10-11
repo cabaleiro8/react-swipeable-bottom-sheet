@@ -3080,6 +3080,7 @@ var SwipeableViews = function (_Component) {
     }, _this.handleSwipeMove = function (event) {
       // The touch start event can be cancel.
       // Makes sure we set a starting point.
+      console.log('ESTOY AKIIIIIIIIII ORIMOOOOOOOOOO');
       if (!_this.started) {
         _this.handleTouchStart(event);
         return;
